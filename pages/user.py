@@ -3,8 +3,8 @@ import streamlit as st
 import tempfile
 from Base_app import *
 from Model import *
-from Video import *
-
+#from Video import *
+'''
 def filter_frame(txt_search):
     files = [f for f in os.listdir("./encoded_images") if os.path.isfile(os.path.join("./encoded_images", f))]
     files.sort(key = lambda x: int(x.split()[1][:-4]))
@@ -14,6 +14,8 @@ def filter_frame(txt_search):
 files = [f for f in os.listdir("./encoded_images") if os.path.isfile(os.path.join("./encoded_images", f))]
 fi = [i.split()[0] for i in files] 
 detected_obj = list(set(fi))
+'''
+detected_obj=['acorn_squash','ashcan','bage']
 
 def app():
 
