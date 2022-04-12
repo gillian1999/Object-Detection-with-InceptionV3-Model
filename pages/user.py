@@ -2,7 +2,7 @@
 import streamlit as st
 import tempfile
 from Base_app import *
-from Model import *
+#from Model import *
 #from Video import *
 '''
 def filter_frame(txt_search):
