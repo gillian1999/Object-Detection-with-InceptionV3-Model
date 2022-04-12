@@ -15,7 +15,7 @@ files = [f for f in os.listdir("./encoded_images") if os.path.isfile(os.path.joi
 fi = [i.split()[0] for i in files] 
 detected_obj = list(set(fi))
 '''
-detected_obj=['acorn_squash','ashcan','bage']
+detected_obj=['acorn_squash','ashcan','bage', 'beach_wagon', 'grille', 'pier', 'dough', 'pizza', 'ban']
 
 def app():
 
